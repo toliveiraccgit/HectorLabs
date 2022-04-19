@@ -1,0 +1,63 @@
+:root{
+    --inter: 'Inter', sans-serif;
+    --cabinet: 'Cabinet Grotesk', sans-serif;
+    --satoshi: 'Satoshi', sans-serif;
+
+
+    --bold: 700;
+    --semi-bold: 600;
+    --medium: 500;
+    --regular: 400;
+
+    --primary: #0A3598;
+    --secundary: #F5F5F7;
+
+    --low-pure: #000000;
+    --low-light: #868686;
+    --low-medium: #969696;
+    --low-dark: #282828;
+
+    --high-pure: #FDFEFF;
+    --high-low: #4A4A4A;
+    --high-medium: #DBDDDE;
+    --high-dark: #BBBBBB;
+
+
+    --line-xs:  115.2%;
+    --line-sm:  120%;
+    --line-md:  133%;
+    --line-lg:  150%;
+    --line-xl:  170%;
+    --line-xxl: 200%;
+    
+    --font-xs: 24px;
+    --font-sm: 32px;
+    --font-md: 48px;
+    --font-lg: 72px;
+    --font-xl: 96px;
+    --font-xxl: 208px;
+
+    --border-circular: 50%
+}
+body a{
+    color: #FFFFFF;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+#body{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+textarea{
+    resize: none;
+    user-select: none;
+}
+textarea::selection{
+    background-color: transparent;
+}

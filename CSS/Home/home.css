@@ -1,0 +1,900 @@
+@media (min-width:0px){
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*-------------------CABECALHO-----------------*/
+    .cabecalho{
+        width: 100vw;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 4.188rem;
+        padding-left: 3.188rem;
+        padding-right: 4.375rem;
+    }
+    .secao__links___cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.063rem;
+    }
+    .link__cabecalho{
+        font-family: 'SF-PRO-Bold';
+        font-size: 14px;
+        
+        letter-spacing: .04rem;
+
+        color: var(--low-light);
+
+        padding-left: 2.125rem;
+        padding-right: 2.125rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .botao__link___cabecalho{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+        
+        letter-spacing: .04rem;
+
+        color: #FFFFFF;
+
+        padding-left: 2.688rem;
+        padding-right: 2.688rem;
+        padding-top: 1.35rem;
+        padding-bottom: 1.35rem;
+
+        background-color: var(--primary);
+
+        border-radius: 10px;
+        border: none;
+    }
+    /*-------------------CONTEUDO-----------------*/
+    .secao__banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 9.538rem;
+
+        padding-top: 7.563rem;
+        padding-bottom: 8.785rem;
+    }
+    .secao__info___banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+
+        width: 65.688rem;
+    }
+    .descricao__banner{
+        font-family: 'SF-PRO-Bold';
+        font-size: 24px;
+        
+        letter-spacing: .04rem;
+
+        color: var(--low-medium);
+
+        margin: 0%;
+    }
+    .titulo__banner{
+        font-family: 'SF-PRO-Bold';
+        font-size: 110px;
+
+        text-align: center;
+        
+        letter-spacing: .04rem;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .destaque__blue{
+        color: var(--primary);
+    }
+    .lista__empresas___banner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 55.106rem;
+    }  
+    /*------------------TECNOLOGIAS--------------*/
+    .secao__tecnologias{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+
+        width: 71.75rem;
+
+        background-color: var(--secundary);
+        border-radius: 20px;
+
+        padding-left: 3.875rem;
+        padding-right: 6.391rem;
+        padding-bottom: 4.813rem;
+        padding-top: 9.188rem;
+
+        margin-bottom: 8.75rem;
+    }
+    @media (max-width:1439px){
+        .secao__tecnologias{
+            width: 82vw;
+        }
+    }
+    .secao__info___tecnologias{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 1.8rem;
+
+        width: 22.625rem;
+    }
+    .titulo__info___tecnologias{
+        font-family: 'SF-PRO-Bold';
+        font-size: 35px;
+
+        letter-spacing: .04rem;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+        margin-bottom: 0.95rem;
+    }
+    .descricao__info___tecnologias{
+        font-family: 'SF-PRO-Regular';
+        font-size: 17px;
+
+        letter-spacing: .04rem;
+
+        color: var(--high-low);
+
+        margin: 0%;
+    }
+    .subtitulo__info___tecnologias{
+        font-family: 'SF-PRO-Bold';
+        font-size: 17px;
+
+        letter-spacing: .04rem;
+
+        color: var(--low-dark);
+
+        margin: 0%;
+    }
+    .botao__saiba-mais{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+        
+        letter-spacing: .04rem;
+
+        color: #FFFFFF;
+
+        padding-left: 2.688rem;
+        padding-right: 2.688rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        background-color: var(--primary);
+
+        border-radius: 10px;
+        border: none;
+
+        margin-top: 2.138rem;
+    }
+    .lista__tecnologias{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        column-gap: 1rem;
+        row-gap: 3.481rem;
+
+        width: 31.11rem;
+    }
+    .item__lista___tecnologias{
+        width: 8.637rem;
+        height: 7.344rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #FFFFFF;
+        box-shadow: 0px 20px 19px rgba(10, 53, 152, 0.12);
+        border-radius: 8px;
+    }
+    /*--------------------TIMES------------------*/
+    .secao__times{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.375rem;
+
+        padding-bottom: 8.75rem;
+    }
+    
+    .secao__cabecalho___times{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+
+        text-align: center;
+
+        width: 31.188rem;
+    }
+    .titulo__cabecalho___times{
+        font-family: 'SF-PRO-Bold';
+        font-size: 35px;
+
+        letter-spacing: .04rem;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .descricao__cabecalho___times{
+        font-family: 'SF-PRO-Regular';
+        font-size: 17px;
+
+        letter-spacing: .04rem;
+        line-height: 36px;
+
+        color: var(--high-low);
+
+        margin: 0%;
+    }
+    .secao__lista___times{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.5rem;
+    }
+    .titulo__lista___times{
+        font-family: 'SF-PRO-Bold';
+        font-size: 24px;
+
+        letter-spacing: .04rem;
+
+        color: var(--primary);
+
+        margin: 0%;
+    }
+    .lista__times{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+
+        width: 68.75rem;
+    }
+    @media (max-width:1439px){
+        .lista__times{
+            width: 80vw;
+        }
+    } 
+    .item__lista___times{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 18.25rem;
+    }
+    .numeracao__lista___times{
+        font-family: 'SF-PRO-Bold';
+        font-size: 35px;
+
+        letter-spacing: .04rem;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .titulo__item___lista-times{
+        font-family: 'SF-PRO-Bold';
+        font-size: 26px;
+
+        letter-spacing: .04rem;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+        margin-top: .8rem;
+
+        text-align: center;
+    }
+    .descricao__item___lista-times{
+        font-family: 'SF-PRO-Regular';
+        font-size: 15px;
+
+        letter-spacing: .04rem;
+        line-height: 26px;
+
+        color: var(--high-low);
+
+        margin: 0%;
+        margin-top: 2.438rem;
+
+        text-align: center;
+    }
+    .secao__contato___times{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+
+        width: 71.75rem;
+
+        background-color: var(--primary);
+        border-radius: 20px;
+
+        padding-top: 4.505rem;
+        padding-bottom: 3.806rem;
+        padding-left: 3.75rem;
+        padding-right: 3.125rem;
+    }
+    @media (max-width:1439px){
+        .secao__contato___times{
+            width: 82vw;
+        }
+    } 
+    .secao__info___contato-times{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5.9rem;
+
+        width: 27.5rem;
+    }
+    .titulo__info___contato-times{
+        font-family: 'SF-PRO-Bold';
+        font-size: 36px;
+
+        letter-spacing: .04rem;
+        line-height: 35px;
+
+        color: #FFFFFF;
+
+        margin: 0%;
+    }
+    .descricao__info___contato-times{
+        font-family: 'SF-PRO-Regular';
+        font-size: 15px;
+
+        letter-spacing: .04rem;
+        line-height: 26px;
+
+        color: #FFFFFF;
+
+        margin: 0%;
+    }
+    .secao__botao___contato-times{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 7.744rem;
+
+        width: 12.688rem;
+    }
+    .link__contato___times{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+
+        color: #FFFFFF;
+
+        padding-left: 2.688rem;
+
+        background-color: transparent;
+
+        border-radius: 10px;
+        border: none;
+    }
+    .botao__contato___times{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+
+        color: var(--primary);
+
+        padding-left: 2.688rem;
+        padding-right: 2.688rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        background-color: #FFFFFF;
+
+        border-radius: 10px;
+        border: none;
+    }
+    /*------------------DIFERENCIAL--------------*/
+    .secao__diferencial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 8.75rem;
+    }
+    .titulo__diferencial{
+        font-family: 'SF-PRO-Bold';
+        font-size: 36px;
+
+        letter-spacing: .04rem;
+        line-height: 35px;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+        margin-bottom: 5.813rem;
+
+        text-align: center;
+    }
+    .secao__tabs___diferencial{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2.125rem;
+
+        margin-bottom: 3.562rem;
+    }
+    .tablinks{
+        font-family: 'SF-PRO-Bold';
+        font-size: 22px;
+
+        letter-spacing: .04rem;
+
+        color: #888888;
+
+        margin: 0%;
+
+        border: none;
+        border-bottom: 2px solid transparent;
+        background-color: transparent;
+
+        padding-bottom: .4rem;
+        padding-left: 0%;
+        padding-right: 0%;
+
+    }
+    .active{
+        color: var(--primary);
+
+        border-bottom: 2px solid var(--primary);
+
+        transition: all .3s ease-in-out;
+    }
+    .secao__conteudo___diferencial{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2.938rem;
+    }
+    .tabcontent{
+        animation: animaTabcontent .5s ease-in forwards;
+
+        opacity: 0;
+    }
+    @keyframes animaTabcontent {
+        0%{
+            opacity: 0;
+            scale: .99;
+        }
+        100%{
+            opacity: 1;
+            scale: 1;
+        }
+    }
+    .secao__info___conteudo-diferencial{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        width: 22.625rem;
+    }
+    .titulo__info___conteudo-diferencial{
+        font-family: 'SF-PRO-Bold';
+        font-size: 35px;
+
+        letter-spacing: .04rem;
+        line-height: 35px;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .descricao__info___conteudo-diferencial{
+        font-family: 'SF-PRO-Regular';
+        font-size: 15px;
+
+        letter-spacing: .04rem;
+        line-height: 36px;
+
+        color: var(--high-low);
+
+        margin: 0%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        width: 18.625rem;
+    }
+    .botao__saiba-mais___diferencial{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+
+        color: #FFFFFF;
+
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        background-color: var(--primary);
+        border-radius: 10px;
+        border: none;
+        margin-top: 4.138rem;
+    }
+    /*--------------GESTAO-ENTREGAS--------------*/
+    .secao__gestao___entrega{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6.75rem;
+
+        padding-bottom: 7.25rem;
+    }
+    .titulo__gestao__entrega{
+        font-family: 'SF-PRO-Bold';
+        font-size: 35px;
+
+        letter-spacing: .04rem;
+        line-height: 35px;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .secao__lista___gestao-entrega{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 5.75rem;
+
+        width: 55rem;
+    }
+    .item__lista___gestao-entrega{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.875rem;
+    }
+    .titulo__item___lista-gestao-entrega{
+        font-family: 'SF-PRO-Bold';
+        font-size: 22px;
+
+        letter-spacing: .04rem;
+        line-height: 35px;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .descricao__item___lista-gestao-entrega{
+        font-family: 'SF-PRO-Regular';
+        font-size: 15px;
+
+        letter-spacing: .04rem;
+        line-height: 36px;
+
+        color: var(--high-low);
+
+        margin: 0%;
+
+        width: 22.688rem;
+    }
+    /*-----------------DEPOIMENTOS-----------------*/
+    .secao__depoimento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 71.75rem;
+
+        padding-top: 4.375rem;
+        padding-bottom: 4.375rem;
+
+        margin-bottom: 8.75rem;
+
+        background-color: var(--secundary);
+        border-radius: 20px;
+    }
+    @media (max-width:1439px){
+        .secao__depoimento{
+            width: 82vw;
+        }
+    }
+    .aspas__depoimento{
+        margin-bottom: 2.413rem;
+    }
+    .texto__conteudo{
+        width: 44.625rem;
+
+        font-family: 'SF-PRO-Regular';
+        font-size: 23px;
+
+        letter-spacing: .04rem;
+        line-height: 45px;
+
+        color: var(--high-low);
+
+        margin: 0%;
+        margin-bottom: 2.875rem;
+
+        text-align: center;
+    }
+    .imagem__empresa___depoimento{
+        width: 8.493rem;
+        height: 2.458rem;
+
+        margin-bottom: 2.855rem;
+    }
+    .container__info___cliente-depoimento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+    }
+    .nome__cliente___depoimento{
+        font-family: 'SF-PRO-Bold';
+        font-size: 17px;
+
+        letter-spacing: .04rem;
+        line-height: 35px;
+
+        color: var(--low-pure);
+
+        margin: 0%;
+    }
+    .cargo__cliente___depoimento{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+
+        color: var(--high-low);
+
+        margin: 0%;
+    }
+    /*---------------AGENDA-CONVERSA---------------*/
+    .secao__agenda-conversa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3.75rem;
+
+        width: 38.813rem;
+        height: 38.813rem;
+
+        border-radius: 50%;
+
+        background-color: var(--primary);
+
+        margin-bottom: 8.75rem;
+    }
+    .titulo__agenda-conversa{
+        font-family: 'SF-PRO-Bold';
+        font-size: 38px;
+
+        letter-spacing: .04rem;
+        line-height: 40px;
+
+        color: var(--high-pure);
+
+        margin: 0%;
+
+        width: 24.875rem;
+        text-align: center;
+    }
+    .link__agenda-conversa{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+
+        color: var(--primary);
+
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+    }
+    /*---------------NEWSLETTER--------------*/
+    .secao__newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.313rem;
+
+        margin-bottom: 8.75rem;
+    }
+    .container__cabecalho___newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.25rem;
+    }
+    .titulo__newsletter{
+        font-family: 'SF-PRO-Bold';
+        font-size: 35px;
+
+        letter-spacing: .04rem;
+        line-height: 40px;
+
+        color: #000000;
+
+        margin: 0%;
+    }
+    .descricao__newsletter{
+        font-family: 'SF-PRO-Regular';
+        font-size: 17px;
+
+        letter-spacing: .04rem;
+        color: var(--high-low);
+
+        margin: 0%;
+    }
+    .form__newsletter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.688rem;
+    }
+    .input__newsletter{
+        font-family: 'SF-PRO-Regular';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+        color: var(--high-low);
+
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-left: 2rem;
+        padding-right: 0.938rem;
+
+        border: none;
+
+        background-color: var(--secundary);
+        border-radius: 10px;
+    }
+    .input__newsletter:focus{
+        outline: 1px solid var(--primary);
+    }
+    .botao__envia___newsletter{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+
+        color: #FFFFFF;
+
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        background-color: var(--primary);
+        border-radius: 10px;
+        border: none;
+    }
+    /*------------------RODAPE----------------*/
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.75rem;
+
+        padding-bottom: 3.688rem;
+    }
+    .secao__info___rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .titulo__info___rodape{
+        font-family: 'SF-PRO-Bold';
+        font-size: 25px;
+
+        letter-spacing: .04rem;
+        line-height: 40px;
+
+        color: #000000;
+
+        margin: 0%;
+    }
+    .secao__links___rodape{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12.688rem;
+    }
+    .link__fale-conosco{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+        line-height: 40px;
+
+        color: #000000;
+
+        margin: 0%;
+
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
+    .link__estamos-contratando{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+        line-height: 40px;
+
+        color: #000000;
+
+        margin: 0%;
+
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
+    .link__email-rodape{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+        line-height: 40px;
+
+        color: var(--primary);
+
+        margin: 0%;
+
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
+    .address__rodape{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+
+        letter-spacing: .04rem;
+        line-height: 40px;
+
+        color: #828282;
+
+        margin: 0%;
+
+    }
+}
