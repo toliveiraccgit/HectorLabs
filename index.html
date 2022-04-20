@@ -65,19 +65,53 @@
 
             <section class="secao__links___cabecalho" id="links__cabecalho-mobile">
 
-                <button class="botao__menu-cabecalho">
+                <button class="botao__menu-cabecalho" id="botao-menu-abre" onclick="abreMenu()">
 
                     <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M25 14H0V16H25V14Z" fill="#0A3598"/>
                         <path d="M25 7H0V9H25V7Z" fill="#0A3598"/>
                         <path d="M25 0H0V2H25V0Z" fill="#0A3598"/>
                     </svg>
+                        
+                    
+                </button>
 
+                <button class="botao__menu-cabecalho" id="botao-menu-fecha" onclick="fechaMenu()">
+
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_17_6)">
+                        <path d="M19.131 17.6777L1.45335 0L0.0391403 1.41421L17.7168 19.0919L19.131 17.6777Z" fill="#0A3598"/>
+                        </g>
+                        <g clip-path="url(#clip1_17_6)">
+                        <path d="M17.6777 0.0433986L0 17.7211L1.41421 19.1353L19.0919 1.45761L17.6777 0.0433986Z" fill="#0A3598"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_17_6">
+                        <rect width="25" height="2" fill="white" transform="translate(1.45335) rotate(45)"/>
+                        </clipPath>
+                        <clipPath id="clip1_17_6">
+                        <rect width="25" height="2" fill="white" transform="translate(0 17.7211) rotate(-45)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    
                 </button>
 
             </section>
 
         </header>
+
+        <section class="secao__conteudo___menu-aberto">
+
+            <section class="secao__links___cabecalho" id="links__cabecalho-botoes-mobile">
+
+                <a href="#" class="link__cabecalho">Estamos contratando</a>
+
+                <button class="botao__link___cabecalho">Fale com a gente</button>
+
+            </section>
+
+        </section>
 
         <main class="conteudo">
 
@@ -510,6 +544,7 @@
                     });
         </script>
         <script src="./Componentes/tab.js" type="text/javascript"></script>
+        <script src="./Componentes/abreMenu.js" type="text/javascript"></script>
     </body>
 
 </html>

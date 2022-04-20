@@ -23,9 +23,107 @@
         z-index: 200;
 
         top: 0%;
+
+        animation: none;
     }
     .logo__hector-labs{
         width: 7.063rem;
+    }
+    .botao__menu-cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 2rem;
+    }
+    #vetor-1-menu{
+        position: relative;
+        top: .2rem;
+    }
+    #vetor-2-menu{
+        position: relative;
+        top: .6rem;
+
+        width: 1.563rem;
+    }
+    #vetor-3-menu{
+        position: relative;
+        top: 1rem;
+
+    }
+    @keyframes animaVetor-1 {
+        0%{
+            top: .2rem;
+
+            transform: rotate(0deg);
+        }
+        100%{
+            top: .6rem;
+
+            transform: rotate(-45deg);
+        }
+    }
+    @keyframes animaVetor-2 {
+        0%{
+            display: block;
+        }
+        50%{
+            width: 0rem;
+        }
+        100%{
+            display: none;
+            width: 0rem;
+        }
+    }
+    @keyframes animaVetor-3 {
+        0%{
+            top: 1rem;
+            left: 0rem;
+
+            transform: rotate(0deg);
+        }
+        100%{
+            top: .4015rem;
+            left: -.03rem;
+
+            transform: rotate(45deg);
+        }
+    }
+    #botao-menu-fecha{
+        display: none;
+    }
+    .secao__conteudo___menu-aberto{
+        position: fixed;
+
+        animation: animaMenu .3s ease-in-out forwards;
+
+        z-index: 100;
+
+        width: 100vw;
+
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #FFFFFF;
+
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+    }
+    @keyframes animaMenu {
+        0%{
+            top: 0%;
+            opacity: 0;
+        }
+        100%{
+            top: 6.875rem;
+            opacity: 1;
+        }
+    }
+    #links__cabecalho-botoes-mobile{
+        flex-direction: column;
+        align-items: center;
     }
     /*---------------BANNER--------------*/
     .secao__banner{
@@ -33,6 +131,8 @@
         padding-bottom: 2.813rem;
 
         gap: 2.939rem;
+
+        animation: none;
     }
     .secao__info___banner{
         width: 90vw;
