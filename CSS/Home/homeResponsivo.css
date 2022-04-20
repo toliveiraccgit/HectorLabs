@@ -1,0 +1,101 @@
+@media (max-width:1023px){
+    /*---------------CABECALHO------------*/
+    #links__cabecalho-desktop{
+        display: none;
+    }
+    #links__cabecalho-mobile{
+        display: flex;
+    }
+    .botao__menu-cabecalho{
+        border: none;
+        background-color: transparent;
+    }
+    .cabecalho{
+        padding-top: 2.188rem;
+        padding-left: 2.188rem;
+        padding-right: 2.188rem;
+        padding-bottom: 2.188rem;
+
+        position: fixed;
+
+        background-color: #FFFFFF;
+
+        z-index: 200;
+    }
+    .logo__hector-labs{
+        width: 7.063rem;
+    }
+    /*---------------BANNER--------------*/
+    .secao__banner{
+        padding-top: 9.375rem;
+        padding-bottom: 2.813rem;
+
+        gap: 2.939rem;
+    }
+    .secao__info___banner{
+        width: 90vw;
+
+        gap: 1rem;
+    }
+    .descricao__banner{
+        text-align: center;
+
+        font-size: 18px;
+
+        width: 12.813rem;
+    }
+    .titulo__banner{
+        font-size: 48px;
+
+        line-height: 50px;
+    }
+    .lista__empresas___banner{
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 1.4rem;
+        width: 90vw;
+    }
+    .item__empresas___banner:nth-child(1){
+        width: 5.521rem;
+    }
+    .item__empresas___banner:nth-child(2){
+        width: 6.274rem;
+    }
+    .item__empresas___banner:nth-child(3){
+        width: 6.35rem;
+    }
+    .item__empresas___banner:nth-child(4){
+        width: 6.375rem;
+    }
+    .item__empresas___banner:nth-child(5){
+        width: 8.813rem;
+    }
+    .imagem__empresas___banner{
+        width: 100%;
+    }
+    /*-----------TECNOLOGIAS------------*/
+    .secao__tecnologias{
+        padding-top: 2.625rem;
+        padding-left: 1.813rem;
+        padding-right: 1.813rem;
+
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+
+        width: 90vw;
+    }
+    .secao__info___tecnologias{
+        width: 72vw;
+
+        text-align: center;
+        align-items: center;
+    }
+    .titulo__info___tecnologias{
+        text-align: center;
+
+        font-size: 26px;
+    }
+}

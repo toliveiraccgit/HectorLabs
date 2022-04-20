@@ -16,6 +16,10 @@
         padding-top: 4.188rem;
         padding-left: 3.188rem;
         padding-right: 4.375rem;
+        animation: animaTop .8s ease-out forwards;
+    }
+    #links__cabecalho-mobile{
+        display: none;
     }
     .secao__links___cabecalho{
         display: flex;
@@ -30,11 +34,21 @@
         letter-spacing: .04rem;
 
         color: var(--low-light);
+        background-color: transparent;
 
         padding-left: 2.125rem;
         padding-right: 2.125rem;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
+
+        border-radius: 10px;
+
+        transition: all .2s ease-in-out;
+    }
+    .link__cabecalho:hover{
+        background-color: var(--secundary);
+
+        transition: all .2s ease-in-out;
     }
     .botao__link___cabecalho{
         font-family: 'SF-PRO-Medium';
@@ -44,15 +58,24 @@
 
         color: #FFFFFF;
 
-        padding-left: 2.688rem;
-        padding-right: 2.688rem;
+        padding-left: 2.588rem;
+        padding-right: 2.588rem;
         padding-top: 1.35rem;
         padding-bottom: 1.35rem;
 
         background-color: var(--primary);
 
         border-radius: 10px;
-        border: none;
+        border: 2px solid var(--primary);
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__link___cabecalho:hover{
+        background-color: transparent;
+
+        color: var(--primary);
+
+        transition: all .2s ease-in-out;
     }
     /*-------------------CONTEUDO-----------------*/
     .secao__banner{
@@ -63,6 +86,8 @@
 
         padding-top: 7.563rem;
         padding-bottom: 8.785rem;
+
+        animation: animaTop .8s ease-out forwards;
     }
     .secao__info___banner{
         display: flex;
@@ -178,17 +203,26 @@
 
         color: #FFFFFF;
 
-        padding-left: 2.688rem;
-        padding-right: 2.688rem;
+        padding-left: 2.588rem;
+        padding-right: 2.588rem;
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
 
         background-color: var(--primary);
 
         border-radius: 10px;
-        border: none;
+        border: 2px solid var(--primary);
 
         margin-top: 2.138rem;
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__saiba-mais:hover{
+        background-color: transparent;
+
+        color: var(--primary);
+
+        transition: all .2s ease-in-out;
     }
     .lista__tecnologias{
         display: flex;
@@ -413,15 +447,25 @@
 
         color: var(--primary);
 
-        padding-left: 2.688rem;
-        padding-right: 2.688rem;
+        padding-left: 2.588rem;
+        padding-right: 2.588rem;
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
 
         background-color: #FFFFFF;
 
         border-radius: 10px;
-        border: none;
+        border: 2px solid #FFFFFF;
+        
+        transition: all .2s ease-in-out;
+    }
+    .botao__contato___times:hover{
+        background-color: var(--primary);
+
+
+        color: #FFFFFF;
+
+        transition: all .2s ease-in-out;
     }
     /*------------------DIFERENCIAL--------------*/
     .secao__diferencial{
@@ -541,8 +585,8 @@
 
         color: #FFFFFF;
 
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
 
@@ -550,6 +594,17 @@
         border-radius: 10px;
         border: none;
         margin-top: 4.138rem;
+        
+        border: 2px solid var(--primary);
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__saiba-mais___diferencial:hover{
+        background-color: transparent;
+
+        color: var(--primary);
+
+        transition: all .2s ease-in-out;
     }
     /*--------------GESTAO-ENTREGAS--------------*/
     .secao__gestao___entrega{
@@ -724,14 +779,23 @@
 
         color: var(--primary);
 
-        padding-left: 1.875rem;
-        padding-right: 1.875rem;
+        padding-left: 1.775rem;
+        padding-right: 1.775rem;
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
 
         background-color: #FFFFFF;
         border-radius: 10px;
-        border: none;
+        border: 2px solid #FFFFFF;
+        
+        transition: all .2s ease-in-out;
+    }
+    .link__agenda-conversa:hover{
+        background-color: transparent;
+
+        color: #FFFFFF;
+
+        transition: all .2s ease-in-out;
     }
     /*---------------NEWSLETTER--------------*/
     .secao__newsletter{
@@ -809,7 +873,16 @@
 
         background-color: var(--primary);
         border-radius: 10px;
-        border: none;
+        border: 2px solid var(--primary);
+        
+        transition: all .2s ease-in-out;
+    }
+    .botao__envia___newsletter:hover{
+        background-color: transparent;
+
+        color: var(--primary);
+
+        transition: all .2s ease-in-out;
     }
     /*------------------RODAPE----------------*/
     .rodape{
@@ -856,6 +929,13 @@
 
         padding-top: .8rem;
         padding-bottom: .8rem;
+
+        transition: all .2s ease-in-out;
+    }
+    .link__fale-conosco:hover{
+        color: var(--primary);
+
+        transition: all .2s ease-in-out;
     }
     .link__estamos-contratando{
         font-family: 'SF-PRO-Medium';
@@ -870,6 +950,13 @@
 
         padding-top: .8rem;
         padding-bottom: .8rem;
+        
+        transition: all .2s ease-in-out;
+    }
+    .link__estamos-contratando:hover{
+        color: var(--primary);
+
+        transition: all .2s ease-in-out;
     }
     .link__email-rodape{
         font-family: 'SF-PRO-Medium';
@@ -884,6 +971,8 @@
 
         padding-top: .8rem;
         padding-bottom: .8rem;
+
+        transition: all .2s ease-in-out;
     }
     .address__rodape{
         font-family: 'SF-PRO-Medium';

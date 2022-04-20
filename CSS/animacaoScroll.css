@@ -1,0 +1,39 @@
+.js .anime-top {
+	opacity: 0;
+	scale: 99%;
+	transition: .35s all ease-out;
+
+	position: relative;
+}
+
+.js .anime-init-top {
+	opacity: 1;
+	scale: 100%;
+	transition: .35s all ease-out;
+
+	position: relative;
+}
+@media (max-width:1200px){
+	.js .anime-top {
+		opacity: 1;
+		scale: 100%;
+		transition: .35s all ease-out;
+	}
+	
+	.js .anime-init-top {
+		opacity: 1;
+		scale: 100%;
+		transition: .35s all ease-out;
+	}
+}
+
+@keyframes animaTop{
+	from{
+		opacity: 0;
+		scale: 99%;
+	}
+	to{
+		opacity: 1;
+		scale: 100%;
+	}
+}
