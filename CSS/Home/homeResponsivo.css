@@ -21,6 +21,8 @@
         background-color: #FFFFFF;
 
         z-index: 200;
+
+        top: 0%;
     }
     .logo__hector-labs{
         width: 7.063rem;
@@ -79,6 +81,9 @@
         padding-top: 2.625rem;
         padding-left: 1.813rem;
         padding-right: 1.813rem;
+        padding-bottom: 2.313rem;
+
+        margin-bottom: 4rem;
 
         flex-direction: column;
         align-items: center;
@@ -97,5 +102,285 @@
         text-align: center;
 
         font-size: 26px;
+    }
+    .descricao__info___tecnologias{
+        line-height: 36px;
+    }
+    #botao__saiba-mais-desktop{
+        display: none;
+    }
+    #botao__saiba-mais-mobile{
+        display: block;
+
+        width: 72vw;
+    }
+    .lista__tecnologias{
+        width: 82vw;
+    }
+    .item__lista___tecnologias{
+        width: 24vw;
+        height: 4.812rem;
+    }
+    .item__lista___tecnologias:nth-child(1) > img{
+        width: 2.303rem;
+    }
+
+    .item__lista___tecnologias:nth-child(2) > img{
+        width: 2.189rem;
+    }
+
+    .item__lista___tecnologias:nth-child(3) > img{
+        width: 2.402rem;
+    }
+
+    .item__lista___tecnologias:nth-child(4) > img{
+        width: 2.558rem;
+    }
+
+    .item__lista___tecnologias:nth-child(5) > img{
+        width: 2.599rem;
+    }
+
+    .item__lista___tecnologias:nth-child(6) > img{
+        width: 2.371rem;
+    }
+    /*--------------TIMES--------------*/
+    .secao__cabecalho___times{
+        width: 78vw;
+    }
+    .titulo__cabecalho___times{
+        font-size: 26px;
+    }
+    .titulo__lista___times{
+        font-size: 20px;
+    }
+    .lista__times{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.625rem;
+    }
+    .numeracao__lista___times{
+        font-size: 30px;
+    }
+    .titulo__item___lista-times{
+        font-size: 23px;
+    }
+    .descricao__item___lista-times{
+        font-size: 17px;
+
+        margin-top: 0.625rem;
+    }
+    .secao__contato___times{
+        width: 90vw;
+
+        flex-direction: column;
+        align-items: center;
+
+        gap: 2rem;
+
+        padding-top: 3rem;
+        padding-left: 2.313rem;
+        padding-right: 2.313rem;
+        padding-bottom: 3.063rem;
+    }
+    .secao__info___contato-times{
+        width: 72vw;
+
+        gap: 2.188rem;
+    }
+    .titulo__info___contato-times{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .descricao__info___contato-times{
+        font-size: 17px;
+    }
+    .secao__botao___contato-times{
+        width: 72vw;
+
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .link__contato___times{
+        padding-left: 0rem;
+
+        font-size: 17px;
+    }
+    .botao__contato___times{
+        width: 72vw;
+
+        text-align: center;
+    }
+    .secao__times{
+        padding-bottom: 3.125rem;
+    }
+    /*---------------DIFERENCIAL---------------*/
+    .secao__diferencial{
+        padding-bottom: 3.125rem;
+    }
+    .titulo__diferencial{
+        font-size: 26px;
+
+        margin-bottom: 3.125rem;
+    }
+    .secao__tabs___diferencial{
+        gap: 1.3rem;
+
+        margin-bottom: 4.863rem;
+    }
+    .tablinks{
+        font-size: 18px;
+    }
+    .secao__conteudo___diferencial{
+        flex-direction: column-reverse;
+        gap: 3.004rem;
+    }
+    .secao__info___conteudo-diferencial{
+        width: 84vw;
+    }
+    .imagem__conteudo-diferencial{
+        width: 90vw;
+    }
+    .titulo__info___conteudo-diferencial{
+        font-size: 23px;
+    }
+    .botao__saiba-mais___diferencial{
+        margin-top: 2rem;
+
+        width: 84vw;
+
+        text-align: center;
+    }
+    /*--------------GESTAO-ENTREGA--------------*/
+    .secao__gestao___entrega{
+        gap: 3.125rem;
+
+        padding-bottom: 3.125rem;
+    }
+    .titulo__gestao__entrega{
+        font-size: 26px;
+    }
+    .secao__lista___gestao-entrega{
+        width: 82vw;
+
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+
+        overflow-x: scroll;
+
+        scroll-snap-type: x mandatory;
+
+        scrollbar-width: none;
+    }
+    .secao__lista___gestao-entrega::-webkit-scrollbar{
+        display: none;
+    }
+    .item__lista___gestao-entrega{
+        scroll-snap-align: start;
+    }
+    .descricao__item___lista-gestao-entrega{
+        font-size: 17px;
+
+        width: 82vw;
+    }
+    /*-------------DEPOIMENTOS-------------*/
+    .secao__depoimento{
+        padding-top: 3.125rem;
+        padding-bottom: 3.5rem;
+
+        width: 90vw;
+
+        margin-bottom: 3.813rem;
+    }
+    .texto__conteudo{
+        width: 19.375rem;
+
+        font-size: 18px;
+
+        line-height: 40px;
+    }
+    .imagem__empresa___depoimento{
+        margin-bottom: 1.866rem;
+    }
+    /*-----------AGENDA-CONVERSA---------*/
+    .secao__agenda-conversa{
+        width: 22.188rem;
+        height: 22.188rem;
+
+        gap: 1.625rem;
+
+        margin-bottom: 3.25rem;
+    }
+    .titulo__agenda-conversa{
+        font-size: 23px;
+        line-height: 30px;
+
+        width: 17.875rem;
+    }
+    /*-------------NEWSLETTER-----------*/
+    .secao__newsletter{
+        gap: 2.875rem;
+
+        margin-bottom: 6.188rem;
+    }
+    .container__cabecalho___newsletter{
+        gap: 1.625rem;
+    }
+    .titulo__newsletter{
+        font-size: 26px;
+    }
+    .descricao__newsletter{
+        width: 15.25rem;
+
+        line-height: 36px;
+
+        text-align: center;
+    }
+    .form__newsletter{
+        flex-direction: column;
+
+        gap: 1.313rem;
+    }
+    .input__newsletter{
+        width: 82vw;
+    }
+    .botao__envia___newsletter{
+        width: 82vw;
+
+        margin-top: 0.938rem;
+    }
+    /*---------------RODAPE-------------*/
+    .rodape{
+        gap: 2.688rem;
+    }
+    .titulo__info___rodape{
+        font-size: 25px;
+
+        width: 19.25rem;
+
+        text-align: center;
+
+    }
+    .secao__links___rodape{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .link__fale-conosco{
+        padding: 0%;
+    }
+    .link__estamos-contratando{
+        padding: 0%;
+    }
+    .link__email-rodape{
+        padding: 0%;
+    }
+    .address__rodape{
+        font-size: 14px;
+        line-height: 26px;
+
+        text-align: center;
+
+        width: 14.125rem;
     }
 }
