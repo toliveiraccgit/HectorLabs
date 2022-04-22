@@ -6,6 +6,9 @@
     #links__cabecalho-mobile{
         display: flex;
     }
+    #links__cabecalho-botoes-mobile{
+        display: flex;
+    }
     .botao__menu-cabecalho{
         border: none;
         background-color: transparent;
@@ -35,6 +38,11 @@
         align-items: center;
 
         height: 2rem;
+        width: 2.063rem;
+    }
+    #botao-menu-fecha{
+        position: relative;
+        top: -.15rem;
     }
     #vetor-1-menu{
         position: relative;
@@ -89,6 +97,45 @@
             transform: rotate(45deg);
         }
     }
+    @keyframes animaVetor-1-fecha {
+        0%{
+            top: .6rem;
+
+            transform: rotate(-45deg);
+        }
+        100%{
+            top: .2rem;
+
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes animaVetor-2-fecha {
+        0%{
+            display: none;
+            width: 0rem;
+        }
+        50%{
+            width: 0rem;
+        }
+        100%{
+            display: block;
+            width: 1.563rem;
+        }
+    }
+    @keyframes animaVetor-3-fecha {
+        0%{
+            top: .4015rem;
+            left: -.03rem;
+
+            transform: rotate(45deg);
+        }
+        100%{
+            top: 1rem;
+            left: 0rem;
+
+            transform: rotate(0deg);
+        }
+    }
     #botao-menu-fecha{
         display: none;
     }
@@ -119,6 +166,16 @@
         100%{
             top: 6.875rem;
             opacity: 1;
+        }
+    }
+    @keyframes animaMenu-fecha {
+        0%{
+            top: 6.875rem;
+            opacity: 1;
+        }
+        100%{
+            top: 0%;
+            opacity: 0;
         }
     }
     #links__cabecalho-botoes-mobile{
