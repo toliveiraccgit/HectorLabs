@@ -24,6 +24,9 @@
     #links__cabecalho-botoes-mobile{
         display:  none;
     }
+    #botao__saiba-mais-mobile{
+        display: none;
+    }
     .secao__links___cabecalho{
         display: flex;
         flex-direction: row;
