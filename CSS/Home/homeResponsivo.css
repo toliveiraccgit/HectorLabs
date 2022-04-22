@@ -209,6 +209,22 @@
         flex-direction: column;
         align-items: center;
     }
+    .link__cabecalho{
+        width: 12.406rem;
+
+        padding-left: .3rem;
+        padding-right: 0rem;
+
+        text-align: center;
+    }
+    .botao__link___cabecalho{
+        width: 12.406rem;
+
+        padding-left: 0rem;
+        padding-right: 0rem;
+
+        text-align: center;
+    }
     /*---------------BANNER--------------*/
     .secao__banner{
         padding-top: 9.375rem;
