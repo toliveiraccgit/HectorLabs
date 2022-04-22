@@ -21,6 +21,9 @@
     #links__cabecalho-mobile{
         display: none;
     }
+    #links__cabecalho-botoes-mobile{
+        display:  none;
+    }
     .secao__links___cabecalho{
         display: flex;
         flex-direction: row;
