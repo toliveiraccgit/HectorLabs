@@ -17,15 +17,15 @@ function abreMenu(){
     vetor2.style.animation = ` animaVetor-2 .6s ease forwards `
     vetor3.style.animation = ` animaVetor-3 .35s ease forwards `
 
-    setTimeout(() => botaoAbreMenu.style.display = ` none `, 500);
+    setTimeout(() => botaoAbreMenu.style.display = ` none `, 300);
 
-    setTimeout(() => botaoFechaMenu.style.display = ` block `, 500);
-    setTimeout(() => secaoFecha.style.display = ` block `, 500);
+    setTimeout(() => botaoFechaMenu.style.display = ` block `, 300);
+    setTimeout(() => secaoFecha.style.display = ` flex `, 300);
 }
 
 function fechaMenu(){
     menuAberto.style.animation = ` animaMenu-fecha .3s ease-in-out forwards `
-    setTimeout(() => menuAberto.style.display = ` none `, 400);
+    setTimeout(() => menuAberto.style.display = ` none `, 300);
     
 
 

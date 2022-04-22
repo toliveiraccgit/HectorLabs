@@ -39,6 +39,9 @@
 
         height: 2rem;
         width: 2.063rem;
+
+        position: relative;
+        top: .1rem;
     }
     #botao-menu-fecha{
         position: relative;
@@ -57,6 +60,22 @@
         position: relative;
         top: 1rem;
 
+    }
+    #vetor-1-menu-fecha{
+        position: relative;
+        
+        transform: rotate(-45deg);
+    }
+    #vetor-2-menu-fecha{
+        display: none;
+        width: 0rem;
+    }
+    #vetor-3-menu-fecha{
+        left: -.03rem;
+        top: -1.1rem;
+        position: relative;
+
+        transform: rotate(45deg);
     }
     @keyframes animaVetor-1 {
         0%{
@@ -135,14 +154,17 @@
             transform: rotate(0deg);
         }
     }
-    #botao-menu-fecha{
-        display: none;
-    }
     .secao__links___cabecalho-botao-fecha{
         display: none;
+    }
+    .botao__menu-cabecalho-fecha{
+        border: none;
+        background-color: transparent;
 
-        position: relative;
-        top: -.11rem;
+        width: 2rem;
+
+        padding-left: 0%;
+        padding-right: 0%;
     }
     .secao__conteudo___menu-aberto{
         position: fixed;
