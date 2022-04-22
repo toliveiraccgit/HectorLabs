@@ -27,6 +27,9 @@
     #botao__saiba-mais-mobile{
         display: none;
     }
+    .secao__links___cabecalho-botao-fecha{
+        display: none;
+    }
     .secao__links___cabecalho{
         display: flex;
         flex-direction: row;
