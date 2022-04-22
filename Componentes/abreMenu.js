@@ -1,4 +1,5 @@
 const menuAberto = document.querySelector('.secao__conteudo___menu-aberto')
+const secaoFecha = document.querySelector('.secao__links___cabecalho-botao-fecha')
 
 const botaoAbreMenu = document.querySelector('#botao-menu-abre')
 
@@ -19,11 +20,13 @@ function abreMenu(){
     setTimeout(() => botaoAbreMenu.style.display = ` none `, 500);
 
     setTimeout(() => botaoFechaMenu.style.display = ` block `, 500);
+    setTimeout(() => secaoFecha.style.display = ` block `, 500);
 }
 
 function fechaMenu(){
     menuAberto.style.animation = ` animaMenu-fecha .3s ease-in-out forwards `
     setTimeout(() => menuAberto.style.display = ` none `, 400);
+    
 
 
     vetor1.style.animation = ` animaVetor-1-fecha .35s ease forwards `
@@ -33,4 +36,5 @@ function fechaMenu(){
     botaoAbreMenu.style.display = ` flex `
 
     botaoFechaMenu.style.display = ` none `
+    secaoFecha.style.display = ` none `
 }

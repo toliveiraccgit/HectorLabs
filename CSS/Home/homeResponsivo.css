@@ -138,6 +138,12 @@
     #botao-menu-fecha{
         display: none;
     }
+    .secao__links___cabecalho-botao-fecha{
+        display: none;
+
+        position: relative;
+        top: -.11rem;
+    }
     .secao__conteudo___menu-aberto{
         position: fixed;
 
