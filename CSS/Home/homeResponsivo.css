@@ -440,6 +440,7 @@
     }
     .imagem__conteudo-diferencial{
         width: 90vw;
+        height: auto;
     }
     .titulo__info___conteudo-diferencial{
         font-size: 23px;
