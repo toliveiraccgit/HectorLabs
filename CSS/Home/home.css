@@ -86,6 +86,9 @@
 
         transition: all .2s ease-in-out;
     }
+    #adress-mobile{
+        display: none;
+    }
     /*-------------------CONTEUDO-----------------*/
     .secao__banner{
         display: flex;
@@ -187,6 +190,7 @@
     .descricao__info___tecnologias{
         font-family: 'SF-PRO-Regular';
         font-size: 17px;
+        line-height: 36px;
 
         letter-spacing: .04rem;
 
@@ -225,6 +229,7 @@
         margin-top: 2.138rem;
 
         transition: all .2s ease-in-out;
+        width: 12.688rem;
     }
     .botao__saiba-mais:hover{
         background-color: transparent;
@@ -424,12 +429,14 @@
         color: #FFFFFF;
 
         margin: 0%;
+
+        width: 22.563rem;
     }
     .secao__botao___contato-times{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        gap: 7.744rem;
+        gap: 11.744rem;
 
         width: 12.688rem;
     }
@@ -467,6 +474,10 @@
         border: 2px solid #FFFFFF;
         
         transition: all .2s ease-in-out;
+
+        width: 12.688rem;
+
+        text-align: center;
     }
     .botao__contato___times:hover{
         background-color: var(--primary);
@@ -507,7 +518,7 @@
         margin-bottom: 3.562rem;
     }
     .tablinks{
-        font-family: 'SF-PRO-Bold';
+        font-family: 'SF-PRO-Medium';
         font-size: 22px;
 
         letter-spacing: .04rem;
@@ -526,6 +537,7 @@
 
     }
     .active{
+        font-family: 'SF-PRO-Bold';
         color: var(--primary);
 
         border-bottom: 2px solid var(--primary);
@@ -573,7 +585,7 @@
     }
     .descricao__info___conteudo-diferencial{
         font-family: 'SF-PRO-Regular';
-        font-size: 15px;
+        font-size: 17px;
 
         letter-spacing: .04rem;
         line-height: 36px;
@@ -589,6 +601,9 @@
     .imagem__conteudo-diferencial{
         width: 39.188rem;
         height: 27.25rem;
+    }
+    #imagem-mobile{
+        display: none;
     }
     .botao__saiba-mais___diferencial{
         font-family: 'SF-PRO-Medium';
@@ -611,6 +626,9 @@
         border: 2px solid var(--primary);
 
         transition: all .2s ease-in-out;
+
+        width: 12.688rem;
+        text-align: center;
     }
     .botao__saiba-mais___diferencial:hover{
         background-color: transparent;
@@ -851,6 +869,9 @@
         align-items: center;
         gap: 0.688rem;
     }
+    .ativa-form{
+        background-color: blue;
+    }
     .input__newsletter{
         font-family: 'SF-PRO-Regular';
         font-size: 14px;
@@ -867,6 +888,8 @@
 
         background-color: var(--secundary);
         border-radius: 10px;
+
+        width: 16.688rem;
     }
     .input__newsletter:focus{
         outline: 1px solid var(--primary);
@@ -889,6 +912,8 @@
         border: 2px solid var(--primary);
         
         transition: all .2s ease-in-out;
+
+        width: 10rem;
     }
     .botao__envia___newsletter:hover{
         background-color: transparent;
