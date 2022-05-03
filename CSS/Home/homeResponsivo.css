@@ -422,6 +422,7 @@
     }
     .descricao__info___contato-times{
         font-size: 17px;
+        width: auto;
     }
     .secao__botao___contato-times{
         width: 72vw;
@@ -632,6 +633,6 @@
 
         text-align: center;
 
-        width: 14.125rem;
+        width: 15.125rem;
     }
 }

@@ -107,7 +107,7 @@
         align-items: center;
         gap: 0.625rem;
 
-        width: 65.688rem;
+        width: 71.688rem;
     }
     .descricao__banner{
         font-family: 'SF-PRO-Bold';
@@ -922,6 +922,28 @@
 
         transition: all .2s ease-in-out;
     }
+    #mc_embed_signup input.mce_inline_error {
+        border-color: none;
+        }
+        .mce_inline_error {
+        background-color: transparent;
+        z-index: 1;
+        color: #131416;
+        }
+        #mc_embed_signup div.mce_inline_error {
+            margin: 0 0 1em 0;
+            padding: 5px 10px;
+            background-color: #FF1919;
+            font-weight: bold;
+            z-index: 1;
+            color: #fff;
+        }
+        #mc_embed_signup_scroll{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.688rem;
+        }
     /*------------------RODAPE----------------*/
     .rodape{
         display: flex;
