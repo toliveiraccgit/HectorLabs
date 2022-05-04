@@ -474,7 +474,8 @@
                         </div>
 
                         <div class="mc-field-group">
-                            <input type="email"  value="" name="EMAIL" class="required email input__newsletter" id="mce-EMAIL" placeholder="Email" required> 
+                            <input type="email" onchange="checarEmail()" onfocus="checarEmail()" onblur="checarEmail()"  value="" name="EMAIL" class="required email input__newsletter" id="mce-EMAIL" placeholder="Email" required>
+                            <span class="span__erro-email">Por favor, informe um e-mail válido</span>
                         </div>
                     
                         <div id="mce-responses" class="clear foot">
@@ -601,6 +602,7 @@
             });
 
         </script>
+        <script src="./Componentes/validaEmail.js" type="text/javascript"></script>
 
     </body>
 

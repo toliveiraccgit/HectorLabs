@@ -42,7 +42,7 @@
         
         letter-spacing: .04rem;
 
-        color: var(--low-light);
+        color: #464646;
         background-color: transparent;
 
         padding-left: 2.125rem;
@@ -52,12 +52,12 @@
 
         border-radius: 10px;
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .link__cabecalho:hover{
-        background-color: var(--secundary);
+        color: var(--low-light);
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .botao__link___cabecalho{
         font-family: 'SF-PRO-Medium';
@@ -77,14 +77,12 @@
         border-radius: 10px;
         border: 2px solid var(--primary);
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .botao__link___cabecalho:hover{
-        background-color: transparent;
+        background-color: #0E2E78;
 
-        color: var(--primary);
-
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     #adress-mobile{
         display: none;
@@ -228,15 +226,13 @@
 
         margin-top: 2.138rem;
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
         width: 12.688rem;
     }
     .botao__saiba-mais:hover{
-        background-color: transparent;
+        background-color: #0E2E78;
 
-        color: var(--primary);
-
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .lista__tecnologias{
         display: flex;
@@ -473,19 +469,16 @@
         border-radius: 10px;
         border: 2px solid #FFFFFF;
         
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
 
         width: 12.688rem;
 
         text-align: center;
     }
     .botao__contato___times:hover{
-        background-color: var(--primary);
+        background-color: #F5F5F7;
 
-
-        color: #FFFFFF;
-
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     /*------------------DIFERENCIAL--------------*/
     .secao__diferencial{
@@ -625,17 +618,14 @@
         
         border: 2px solid var(--primary);
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
 
         width: 12.688rem;
         text-align: center;
     }
     .botao__saiba-mais___diferencial:hover{
-        background-color: transparent;
-
-        color: var(--primary);
-
-        transition: all .2s ease-in-out;
+        background-color: #0E2E78;
+        transition: all .15s ease-in-out;
     }
     /*--------------GESTAO-ENTREGAS--------------*/
     .secao__gestao___entrega{
@@ -819,14 +809,11 @@
         border-radius: 10px;
         border: 2px solid #FFFFFF;
         
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .link__agenda-conversa:hover{
-        background-color: transparent;
-
-        color: #FFFFFF;
-
-        transition: all .2s ease-in-out;
+        background-color: #F5F5F7;
+        transition: all .15s ease-in-out;
     }
     /*---------------NEWSLETTER--------------*/
     .secao__newsletter{
@@ -866,7 +853,7 @@
     .form__newsletter{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         gap: 0.688rem;
     }
     .ativa-form{
@@ -881,10 +868,10 @@
 
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
-        padding-left: 2rem;
+        padding-left: 1.25rem;
         padding-right: 0.938rem;
 
-        border: none;
+        border: 1px solid transparent;
 
         background-color: var(--secundary);
         border-radius: 10px;
@@ -892,7 +879,7 @@
         width: 16.688rem;
     }
     .input__newsletter:focus{
-        outline: 1px solid var(--primary);
+        outline: 1px solid #A3A3A3;
     }
     .botao__envia___newsletter{
         font-family: 'SF-PRO-Medium';
@@ -911,16 +898,13 @@
         border-radius: 10px;
         border: 2px solid var(--primary);
         
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
 
         width: 10rem;
     }
     .botao__envia___newsletter:hover{
-        background-color: transparent;
-
-        color: var(--primary);
-
-        transition: all .2s ease-in-out;
+        background-color: #0E2E78;
+        transition: all .15s ease-in-out;
     }
     #mc_embed_signup input.mce_inline_error {
         border-color: none;
@@ -941,9 +925,27 @@
         #mc_embed_signup_scroll{
             display: flex;
             flex-direction: row;
-            align-items: center;
+            align-items: flex-start;
             gap: 0.688rem;
+
+            padding-top: .29rem;
         }
+    .span__erro-email{
+        font-family: 'SF-PRO-Regular';
+        font-size: 12px;
+
+        color: #F50041;
+
+        padding-left: 1.25rem;
+
+        visibility: hidden;
+    }
+    .mc-field-group{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .8rem;
+    }
     /*------------------RODAPE----------------*/
     .rodape{
         display: flex;
@@ -990,12 +992,12 @@
         padding-top: .8rem;
         padding-bottom: .8rem;
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .link__fale-conosco:hover{
-        color: var(--primary);
+        color: #464646;
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .link__estamos-contratando{
         font-family: 'SF-PRO-Medium';
@@ -1011,12 +1013,12 @@
         padding-top: .8rem;
         padding-bottom: .8rem;
         
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .link__estamos-contratando:hover{
-        color: var(--primary);
+        color: #464646;
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
     }
     .link__email-rodape{
         font-family: 'SF-PRO-Medium';
@@ -1032,7 +1034,10 @@
         padding-top: .8rem;
         padding-bottom: .8rem;
 
-        transition: all .2s ease-in-out;
+        transition: all .15s ease-in-out;
+    }
+    .link__email-rodape:hover{
+        color: #0E2E78;
     }
     .address__rodape{
         font-family: 'SF-PRO-Medium';
