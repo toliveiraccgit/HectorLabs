@@ -52,6 +52,11 @@
     </head>
     
     <body id="body">
+        <section class="secao__feedback-newsletter">
+
+            <p class="feedback-newsletter">Seu e-mail foi cadastrado! Fique atento que em breve mandaremos novas oportunidades.</p>
+    
+        </section>
 
         <header class="cabecalho">
 
@@ -456,7 +461,7 @@
 
             </section>
 
-            <section class="secao__newsletter anime-top" id="mc_embed_signup">
+            <section class="secao__newsletter secao__newsletter-desativa anime-top" id="mc_embed_signup">
 
                 <div class="container__cabecalho___newsletter">
                     <h13 class="titulo__newsletter">Newsletter</h13>
@@ -596,8 +601,9 @@
                     url: url,
                     data: $("#mc-embedded-subscribe-form").serialize(),
                     });
-                
-                    $("#mc-embedded-subscribe-form").addClass( "ativa-form" );
+                    $(".secao__feedback-newsletter").addClass("secao__feedback-newsletter-ativo");
+                    $(".secao__newsletter-desativa").addClass("desativa__form");
+                    $(".secao__newsletter-ativa").addClass("ativa__form");
                     e.preventDefault();// esse comando serve para previnir que o form realmente realize o submit e atualize a tela.
             });
 

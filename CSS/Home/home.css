@@ -1051,4 +1051,64 @@
         margin: 0%;
 
     }
+    .secao__feedback-newsletter{
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100vw;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+
+        position: fixed;
+
+        background-color: var(--primary);
+
+        z-index: 5000;
+
+        opacity: 0;
+
+        animation: animaFeedback 3s ease-in-out forwards ;
+
+        transition: all .3s ease-in-out;
+    }
+    .secao__feedback-newsletter-ativo{
+        display: flex;
+        opacity: 1;
+    }
+    .desativa__form{
+        display: none;
+    }
+    .ativa__form{
+        display: flex;
+    }
+    .secao__newsletter-ativa{
+        display: none;
+    }
+    @keyframes animaFeedback{
+        0%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            display: none;
+        }
+    }
+    .feedback-newsletter{
+        font-family: 'SF-PRO-Medium';
+        font-size: 14px;
+        letter-spacing: .05rem;
+        color: #FFFFFF;
+        margin: 0%;
+    }
 }
