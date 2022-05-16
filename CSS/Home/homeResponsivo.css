@@ -635,4 +635,7 @@
 
         width: 15.125rem;
     }
+    .feedback-newsletter{
+        text-align: center;
+    }
 }

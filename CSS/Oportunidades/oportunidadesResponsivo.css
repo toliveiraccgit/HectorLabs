@@ -1,0 +1,44 @@
+@media (max-width:1023px){
+    .titulo__oportunidades{
+        font-size: 48px;
+        padding-top: 11.625rem;
+
+        width: 90vw;
+
+        margin-bottom: 4.313rem;
+    }
+    .secao__conteudo___oportunidade{
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+
+        width: 90vw;
+
+        margin-bottom: 4.563rem;
+    }
+    .secao__info___conteudo{
+        width: 88vw;
+    }
+
+    .descricao__info___conteudo{
+        width: 88vw;
+    }
+    .secao__aside___conteudo{
+        width: 88vw;
+    }
+    .secao__dados___oportunidade{
+        width: 77vw;
+    }
+    .descricao__dados___conteudo{
+        width: 77vw;
+    }
+    .link__oportunidades{
+        display: none;
+    }
+    .link__oportunidade___conteudo{
+        width: 77vw;
+    }
+    .feedback-newsletter{
+        text-align: center;
+    }
+}
