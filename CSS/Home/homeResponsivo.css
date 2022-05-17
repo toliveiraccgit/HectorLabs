@@ -252,7 +252,7 @@
         align-items: center;
     }
     .botao__abre___oportunidades{
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
@@ -280,9 +280,13 @@
     }
     .lista__oportunidades{
         align-items: center;
+        display: none;
     }
     #botao__fecha-oportunidades{
         display: none;
+    }
+    #padding-link{
+        padding-top: 1.25rem;
     }
     /*---------------BANNER--------------*/
     .secao__banner{
@@ -670,5 +674,8 @@
     }
     .feedback-newsletter{
         text-align: center;
+    }
+    #desativa__para-form{
+        display: none;
     }
 }

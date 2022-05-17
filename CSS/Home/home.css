@@ -81,7 +81,12 @@
 
         color: #464646;
 
-        padding-top: 1.188rem;
+        transition: all .15s ease-in-out;
+    }
+    .link__cabecalho:hover{
+        color: var(--low-light);
+
+        transition: all .15s ease-in-out;
     }
     .botao__oportunidades{
         background-color: transparent;
@@ -103,6 +108,8 @@
         z-index: 50000;
 
         transition: all .15s ease-in-out;
+
+        display: none;
     }
     .botao__oportunidades:hover{
         color: var(--low-light);
@@ -1234,5 +1241,8 @@
         letter-spacing: .05rem;
         color: #FFFFFF;
         margin: 0%;
+    }
+    #desativa__para-form{
+        display: none;
     }
 }
