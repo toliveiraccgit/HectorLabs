@@ -27,8 +27,6 @@
 
         background-color: #FFFFFF;
 
-        z-index: 200;
-
         top: 0%;
 
         animation: none;
@@ -175,7 +173,7 @@
 
         animation: animaMenu .3s ease-in-out forwards;
 
-        z-index: 100;
+        z-index: 60000;
 
         width: 100vw;
         height: 87vh;
@@ -253,6 +251,39 @@
         flex-direction: column;
         align-items: center;
     }
+    .botao__abre___oportunidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        border: none;
+
+        background-color: transparent;
+
+        font-family: 'SF-PRO-Bold';
+        font-size: 14px;
+        
+        letter-spacing: .04rem;
+
+        color: #464646;
+
+        padding-top: 1.188rem;
+
+        text-align: center;
+
+        height: 2.2rem;
+
+        overflow-y: hidden;
+
+        transition: all .3s ease-in-out;
+    }
+    .lista__oportunidades{
+        align-items: center;
+    }
+    #botao__fecha-oportunidades{
+        display: none;
+    }
     /*---------------BANNER--------------*/
     .secao__banner{
         padding-top: 9.375rem;
@@ -261,6 +292,8 @@
         gap: 2.939rem;
 
         animation: none;
+
+        z-index: 1;
     }
     .secao__info___banner{
         width: 90vw;

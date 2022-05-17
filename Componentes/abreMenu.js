@@ -38,3 +38,25 @@ function fechaMenu(){
     botaoFechaMenu.style.display = ` none `
     secaoFecha.style.display = ` none `
 }
+
+
+const botaoAbreOportunidades = document.querySelector('#botao__abre-oportunidades')
+const botaoFechaOportunidades = document.querySelector('#botao__fecha-oportunidades')
+
+const listaOportunidades = document.querySelector('#lista__oportunidades___mobile')
+
+function abreListaOportunidades(){
+    listaOportunidades.style.height = ` 100% `
+    listaOportunidades.style.overflowY = ` scroll `
+
+    botaoAbreOportunidades.style.display = ` none `
+    botaoFechaOportunidades.style.display = ` block ` 
+}
+
+function fechaListaOportunidades(){
+    listaOportunidades.style.height = ` 2.2rem `
+    listaOportunidades.style.overflowY = ` hidden `
+
+    botaoAbreOportunidades.style.display = ` block `
+    botaoFechaOportunidades.style.display = ` none ` 
+}

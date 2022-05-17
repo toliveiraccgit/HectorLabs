@@ -73,6 +73,16 @@
     #adress-mobile{
         display: none;
     }
+    .link__cabecalho{
+        font-family: 'SF-PRO-Bold';
+        font-size: 14px;
+        
+        letter-spacing: .04rem;
+
+        color: #464646;
+
+        padding-top: 1.188rem;
+    }
     .botao__oportunidades{
         background-color: transparent;
         border: none;
