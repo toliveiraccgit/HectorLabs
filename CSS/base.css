@@ -64,3 +64,18 @@ textarea::selection{
 #desativa__para-form{
     display: none;
 }
+
+@font-face {
+    font-family: 'SF-PRO-Bold';
+    src:  url('./Fonts/SFProDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'SF-PRO-Medium';
+    src:  url('./Fonts/SFProDisplay-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'SF-PRO-Regular';
+    src: url('./Fonts/SFProDisplay-Regular.ttf');
+}
